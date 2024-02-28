@@ -15,6 +15,10 @@ This project develops a proof-of-concept real-time respiratory monitoring system
 - **Power**: Equipped with a 120mAh battery.
 - **WiFi**: Onboard 2.4GHz antenna utilizing the ESP32 WiFi stack for data transmission.
 
+<p align="center">
+  <img src="https://github.com/mai-amber/Media/blob/1bce66f0f789bc35341d74f84794446841127932/Sensor%204.jpg" width="400"/>
+</p>
+
 ## Wi-Fi Transmitter Details
 
 - **Wi-Fi Protocol**: 2.4GHz (802.11b/g/n).
@@ -33,9 +37,17 @@ This project develops a proof-of-concept real-time respiratory monitoring system
 - **Button B**: Pauses or resumes the UDP stream, effectively toggling the stream state.
 - **Button PWR**: Powers the device on (long press ~2 seconds) or off (long press ~6 seconds).
 
+<p align="center">
+  <img src="https://github.com/mai-amber/Media/blob/1bce66f0f789bc35341d74f84794446841127932/Sensor%203.jpg" width="400"/>
+</p>
+
 ## High-Level State Diagram
 
 The system's operation is illustrated through a state diagram focusing on the "stream" state, which is controlled by Button B. This button also allows for resetting the `elapsedTime` to 0, providing flexibility in monitoring sessions.
+
+<p align="center">
+  <img src="https://github.com/mai-amber/Media/blob/1bce66f0f789bc35341d74f84794446841127932/Diagram.jpg" width="400"/>
+</p>
 
 ## Initial Setup
 
@@ -43,11 +55,19 @@ To run the code effectively, modify the IMU header file within the M5StickC libr
 
 ## Mounting
 
-The device utilizes magnetic tape with adhesive backing for easy and secure mounting. One segment of the tape is attached to the M5 StickC Plus, and the other to the user's clothing, ensuring a reliable but non-permanent attachment method.
+The device utilizes a 3D printable clip that can be attached to the user's clothing, ensuring a reliable but non-permanent attachment method.
+
+<p align="center">
+  <img src="https://github.com/mai-amber/Media/blob/1bce66f0f789bc35341d74f84794446841127932/sensor%201.jpg" width="400"/>
+</p>
 
 ## Placement
 
 For optimal signal capture, the device should be placed over clothing on the clavicle, approximately midway between the sternoclavicular and acromioclavicular joints. The M5 StickC Plus should be perpendicular to the clavicle, ensuring accurate signal detection.
+
+<p align="center">
+  <img src="https://github.com/mai-amber/Media/blob/1bce66f0f789bc35341d74f84794446841127932/sensor%202.jpg" width="400"/>
+</p>
 
 ---
 
