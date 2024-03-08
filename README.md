@@ -15,9 +15,6 @@ This project develops a proof-of-concept real-time respiratory monitoring system
 - **Power**: Equipped with a 120mAh battery.
 - **WiFi**: Onboard 2.4GHz antenna utilizing the ESP32 WiFi stack for data transmission.
 
-<p align="center">
-  <img src="https://github.com/mai-amber/Media/blob/1bce66f0f789bc35341d74f84794446841127932/Sensor%204.jpg" width="400"/>
-</p>
 
 ## Wi-Fi Transmitter Details
 
